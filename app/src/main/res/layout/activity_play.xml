@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PlaySong"
+    android:background="@drawable/pink_back">
+    
+    <ImageView
+        android:id="@+id/image_view_music"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:src="@drawable/round_music"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+    <Button
+        android:id="@+id/play_btn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/image_view_music"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/play"/>
+    <Button
+        android:id="@+id/pause_btn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@id/play_btn"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/play_btn"
+        android:layout_toStartOf="@id/play_btn"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/pause"/>
+    <Button
+        android:id="@+id/stop_btn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@id/play_btn"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/play_btn"
+        android:layout_toEndOf="@id/play_btn"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/stop"/>
+
+
+    
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="all_songs">All Songs</string>
+    <string name="artists">Artists</string>
+    <string name="hit_songs">Hit Songs</string>
+    <string name="now_playing">Now Playing...</string>
+</resources>
